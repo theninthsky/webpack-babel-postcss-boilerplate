@@ -1,0 +1,36 @@
+@font-face {
+  font-family: 'Heebo';
+  font-style: normal;
+  font-weight: 400 500;
+  font-display: swap;
+  src: url(../fonts/Heebo.woff2) format('woff2');
+  unicode-range: U+0590-05FF, U+20AA, U+25CC, U+FB1D-FB4F;
+}
+
+body {
+    margin: 0;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    font-family: 'Heebo', sans-serif;
+}
+
+.container {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.text {
+  text-align: center;
+  cursor: pointer;
+}
+
+.text:hover {
+  opacity: 0.5;
+}
+
+img {
+  display: block;
+  margin: 5px auto;
+}
